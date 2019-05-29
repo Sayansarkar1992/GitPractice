@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="22621" started-at="2019-05-01T14:51:34Z" finished-at="2019-05-01T14:51:57Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="22621" started-at="2019-05-01T14:51:34Z" finished-at="2019-05-01T14:51:57Z">
+      <class name="Test.MainTest">
+        <test-method status="PASS" signature="beforeTestMethod()[pri:0, instance:Test.MainTest@573f2bb1]" name="beforeTestMethod" is-config="true" duration-ms="9267" started-at="2019-05-01T20:21:34Z" finished-at="2019-05-01T20:21:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="demoTest1(java.lang.String)[pri:0, instance:Test.MainTest@573f2bb1]" name="demoTest1" duration-ms="191" started-at="2019-05-01T20:21:43Z" data-provider="getData" finished-at="2019-05-01T20:21:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTest1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.MainTest@573f2bb1]" name="tearDown" is-config="true" duration-ms="2332" started-at="2019-05-01T20:21:44Z" finished-at="2019-05-01T20:21:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeTestMethod()[pri:0, instance:Test.MainTest@573f2bb1]" name="beforeTestMethod" is-config="true" duration-ms="10289" started-at="2019-05-01T20:21:46Z" finished-at="2019-05-01T20:21:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="demoTest1(java.lang.String)[pri:0, instance:Test.MainTest@573f2bb1]" name="demoTest1" duration-ms="243" started-at="2019-05-01T20:21:56Z" data-provider="getData" finished-at="2019-05-01T20:21:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTest1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.MainTest@573f2bb1]" name="tearDown" is-config="true" duration-ms="272" started-at="2019-05-01T20:21:56Z" finished-at="2019-05-01T20:21:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.MainTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
