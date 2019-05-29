@@ -10,6 +10,8 @@ import org.testng.annotations.Test;
 public class AppTest 
     
 {
+	
+	
     /**
      * Create the test case
      *
@@ -28,6 +30,11 @@ public class AppTest
     public void AppTestSuite(  )
     {
         System.out.println("This is appTest");
+        System.out.println("This is another test");
+        System.out.println("This is another test1");
+        System.out.println("This is another test2");
+        System.out.println("This is another test3");
+        System.out.println("This is another test4");
     }
 	@Test
 	public void anotherTest() {
